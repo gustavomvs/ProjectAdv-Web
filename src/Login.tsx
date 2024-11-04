@@ -1,7 +1,6 @@
 const CLIENT_ID = "1000.WTU36HCZ6AMQN1HGW83TY4IE0NFOSI";
 const REDIRECT_URI =
-  "https://4af0-2804-56c-d746-a700-fdff-8dd7-4c0-bfee.ngrok-free.app/callback"; // Redireciona para o backend
-
+  "https://e55c-2804-56c-d746-a700-fdff-8dd7-4c0-bfee.ngrok-free.app/callback"; // Redireciona para o backend
 
 const Login = () => {
   const handleLogin = () => {
