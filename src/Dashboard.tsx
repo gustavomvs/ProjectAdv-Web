@@ -59,7 +59,7 @@ const Dashboard = () => {
 
     try {
       const response = await axios.get(
-        "https://3bf7-2804-2ee8-82-c8c6-414f-cf2f-f426-961e.ngrok-free.app/api/deactive-users",
+        "https://4af0-2804-56c-d746-a700-fdff-8dd7-4c0-bfee.ngrok-free.app/api/deactive-users",
         {
           headers: {
             Authorization: `Zoho-oauthtoken ${accessToken}`,
@@ -88,7 +88,7 @@ const Dashboard = () => {
 
     try {
       const response = await axios.post(
-        "https://3bf7-2804-2ee8-82-c8c6-414f-cf2f-f426-961e.ngrok-free.app/api/create-user",
+        "https://4af0-2804-56c-d746-a700-fdff-8dd7-4c0-bfee.ngrok-free.app/api/create-user",
         {}, // Corpo vazio, pois os dados são estáticos no backend
         {
           headers: {
